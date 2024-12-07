@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'AmosKhan', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -29,37 +29,37 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Final Year Project',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Acute Effects of Cloth Mask on Physiological Indices (Lactate Threshold, VO2, VO2max, Rate of Perceived Exertion',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Purpose: Examine the effects of cloth mask conditions on exercise performance between bothgenders in physiological indices such as Lactate Threshold (LT), Oxygen Consumption (VO2),Maximal Oxygen Consumption (VO2max) and Rate of Perceived Exhaustion (RPE).',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://media.licdn.com/dms/image/C4E12AQEzgELbed6NFw/article-cover_image-shrink_600_2000/0/1542629984029?e=2147483647&v=beta&t=ANNFaIE5YwDBBY_tghdPTEqMSxUOsVPLmJ0v5ohqhhc',
+          link: 'https://entuedu-my.sharepoint.com/:b:/g/personal/nie21_kjma_e_ntu_edu_sg/EakQZl_q1UNNghVa9SmYakoB6UAO0MsXUJ9m3WuOAn4XnA?e=7vtcpK',
         },
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          // title: 'Project Name',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // link: 'https://example.com',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Amos Khan',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'Amos Khan',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,91 +69,112 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://amoskhan.github.io/amosportfolio/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'khanamos1@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://entuedu-my.sharepoint.com/:b:/g/personal/nie21_kjma_e_ntu_edu_sg/EWTZ_odYdXBGnAZqXs4s31sBORrTGj4x3WIFFbdjyLUfyA?e=mEI21t', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Microsoft Office',
+    'HTML',
+    'Python',
+    'SQL',
+    'R Programming',
+    'Tableau',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Diagnostic Development Hub',
+      position: 'Corporate Communications, Outreach and Talent Development Intern',
+      from: 'July 2024',
+      to: 'December 2024',
+      companyLink: 'https://www.a-star.edu.sg/dxdhub',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'NTUC Health',
+      position: 'Assistant Data Analyst',
+      from: 'Jan 2023',
+      to: 'April 2023',
+      companyLink: 'https://ntuchealth.sg',
     },
+    {
+      company: 'Phillip Securities Pte Ltd',
+      position: 'Data Processing Executive',
+      from: 'Feb 2021',
+      to:'July 2021',
+      companyLink: 'https://www.phillip.com.sg/sg/',
+    },
+    {
+      company: 'ST Logistics Pte Ltd',
+      position: 'Data Admin Supervisor',
+      from: 'Nov 2018',
+      to:'Jan 2019',
+      companyLink: 'https://www.stlogs.com',
+    }
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Google Professional Certificates (Google Data Analytics)',
+      // body: 'Lorem ipsum dolor sit amet',
+      year: 'Jan 2023',
+      link: 'https://www.coursera.org/account/accomplishments/professional-cert/T4HC2NQTR8XN',
+    },
+    {
+      name: 'Google Professional Certificates (Google IT Support)',
+      // body: 'Lorem ipsum dolor sit amet',
+      year: 'Sept 2022',
+      link: 'https://www.coursera.org/account/accomplishments/professional-cert/K7U4T22D987M',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Nanyang Technological University Singapore',
+      degree: 'Bachelor of Science (Sports Science & Management)',
+      from: '2021',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Loughborough University',
+      degree: 'Sport and Exercise Science (Sports Science)',
+      from: 'Feb 2024',
+      to: 'June 2024',
+    },
+    {
+      institution: 'Raffles Institution',
+      degree: 'A Levels',
+      from: 'Jan 2013',
+      to: 'Dec 2018',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Badminton Athlete',
+      // conferenceName: '',
+      // journalName: 'Journal Name',
+      // authors: 'Amos Khan',
+      // link: 'https://entuedu-my.sharepoint.com/:b:/g/personal/nie21_kjma_e_ntu_edu_sg/EakQZl_q1UNNghVa9SmYakoB6UAO0MsXUJ9m3WuOAn4XnA?e=7vtcpK',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        ' Played badminton since 12 years old.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      title: 'Badminton Coach',
+      description: 'Coaching was where I started to educate younger ones on how to play the sport better.'
+    },
+
+    {title: 'Sports Data Analysis',
+    description: 'I find data analysis an intricate process. I find immense joy towards it.'
+    },
+
+    {title: 'Educator',
+    description: 'Through sports, I hope to educate more people on its benefits and outcomes.'
     },
   ],
   // Display articles from your medium or dev account. (Optional)
