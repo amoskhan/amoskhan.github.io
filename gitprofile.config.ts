@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Acute Effects of Cloth Mask on Physiological Indices (Lactate Threshold, VO2, VO2max, Rate of Perceived Exertion',
           description:
-            'Purpose: Examine the effects of cloth mask conditions on exercise performance between bothgenders in physiological indices such as Lactate Threshold (LT), Oxygen Consumption (VO2),Maximal Oxygen Consumption (VO2max) and Rate of Perceived Exhaustion (RPE).',
+            'Purpose: Examine the effects of cloth mask conditions on exercise performance between bothgenders in physiological indices such as Lactate Threshold (LT), Oxygen Consumption(VO2), Maximal Oxygen Consumption (VO2max) and Rate of Perceived Exhaustion (RPE).',
           imageUrl:
             'https://media.licdn.com/dms/image/C4E12AQEzgELbed6NFw/article-cover_image-shrink_600_2000/0/1542629984029?e=2147483647&v=beta&t=ANNFaIE5YwDBBY_tghdPTEqMSxUOsVPLmJ0v5ohqhhc',
           link: 'https://entuedu-my.sharepoint.com/:b:/g/personal/nie21_kjma_e_ntu_edu_sg/EakQZl_q1UNNghVa9SmYakoB6UAO0MsXUJ9m3WuOAn4XnA?e=7vtcpK',
