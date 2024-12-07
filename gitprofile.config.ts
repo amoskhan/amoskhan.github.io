@@ -50,6 +50,7 @@ const CONFIG = {
         // },
       ],
     },
+
   },
   seo: {
     title: 'Portfolio of Amos Khan',
@@ -77,11 +78,10 @@ const CONFIG = {
     website: '',
     phone: '',
     email: 'NIE21.KJMA@e.ntu.edu.sg',
-    email: 'khanamos1@gmail.com',
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Microsoft Office',
@@ -135,7 +135,8 @@ const CONFIG = {
       // body: 'Lorem ipsum dolor sit amet',
       year: 'Sept 2022',
       link: 'https://www.coursera.org/account/accomplishments/professional-cert/K7U4T22D987M',
-    },  ],
+    },  
+  ],
   educations: [
     {
       institution: 'Nanyang Technological University Singapore',
