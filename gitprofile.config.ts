@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'Amos Khan',
+    linkedin: 'AmosKhan',
     twitter: '',
     mastodon: '',
     researchGate: '',
