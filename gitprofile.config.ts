@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'Amos Khan', // Your GitHub org/user name. (This is the only required config)
+    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -29,41 +29,40 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Final Year Project',
+      header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Acute Effects of Cloth Mask on Physiological Indices (Lactate Threshold, VO2, VO2max, Rate of Perceived Exertion',
+          title: 'Project Name',
           description:
-            'Purpose: Examine the effects of cloth mask conditions on exercise performance between bothgenders in physiological indices such as Lactate Threshold (LT), Oxygen Consumption (VO2),Maximal Oxygen Consumption (VO2max) and Rate of Perceived Exhaustion (RPE).',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://media.licdn.com/dms/image/C4E12AQEzgELbed6NFw/article-cover_image-shrink_600_2000/0/1542629984029?e=2147483647&v=beta&t=ANNFaIE5YwDBBY_tghdPTEqMSxUOsVPLmJ0v5ohqhhc',
-          link: 'https://entuedu-my.sharepoint.com/:b:/g/personal/nie21_kjma_e_ntu_edu_sg/EakQZl_q1UNNghVa9SmYakoB6UAO0MsXUJ9m3WuOAn4XnA?e=7vtcpK',
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://example.com',
         },
-        // {
-        //   title: 'Project Name',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-        //   imageUrl:
-        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-        //   link: 'https://example.com',
-        // },
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://example.com',
+        },
       ],
     },
-
   },
   seo: {
-    title: 'Portfolio of Amos Khan',
+    title: 'Portfolio of Ariful Alam',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'AmosKhan',
-    twitter: '',
-    mastodon: '',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
+    mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
-    instagram: 'afro_jacko',
+    instagram: '',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
@@ -74,117 +73,94 @@ const CONFIG = {
     dev: 'arifszn',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: 'AmosKhan',
-    website: '',
+    telegram: '',
+    website: 'https://www.arifszn.com',
     phone: '',
-    email: 'NIE21.KJMA@e.ntu.edu.sg',
+    email: 'arifulalamszn@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Microsoft Office',
-    'HTML',
-    'Python',
-    'SQL',
-    'R Programming',
-    'Tableau',
+    'PHP',
+    'Laravel',
+    'JavaScript',
+    'React.js',
+    'Node.js',
+    'Nest.js',
+    'MySQL',
+    'PostgreSQL',
+    'Git',
+    'Docker',
+    'PHPUnit',
+    'CSS',
+    'Antd',
+    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Diagnostic Development Hub',
-      position: 'Corporate Communications, Outreach and Talent Development Intern',
-      from: 'July 2024',
-      to: 'December 2024',
-      companyLink: 'https://www.a-star.edu.sg/dxdhub',
-      companyLogo: 'https://images2.minutemediacdn.com/image/upload/c_crop,w_3840,h_2160,x_0,y_0/v1679344593/images/voltaxMediaLibrary/mmsport/mentalfloss/01gw0bst2k1bt9nz1g6k.jpg'
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
+      to: 'Present',
+      companyLink: 'https://example.com',
     },
     {
-      company: 'NTUC Health',
-      position: 'Assistant Data Analyst',
-      from: 'Jan 2023',
-      to: 'April 2023',
-      companyLink: 'https://ntuchealth.sg',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
     },
-    {
-      company: 'Phillip Securities Pte Ltd',
-      position: 'Data Processing Executive',
-      from: 'Feb 2021',
-      to:'July 2021',
-      companyLink: 'https://www.phillip.com.sg/sg/',
-    },
-    {
-      company: 'ST Logistics Pte Ltd',
-      position: 'Data Admin Supervisor',
-      from: 'Nov 2018',
-      to:'Jan 2019',
-      companyLink: 'https://www.stlogs.com',
-    }
-
   ],
   certifications: [
     {
-      name: 'Google Professional Certificates (Google Data Analytics)',
-      // body: 'Lorem ipsum dolor sit amet',
-      year: 'Jan 2023',
-      link: 'https://www.coursera.org/account/accomplishments/professional-cert/T4HC2NQTR8XN',
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
     },
-    {
-      name: 'Google Professional Certificates (Google IT Support)',
-      // body: 'Lorem ipsum dolor sit amet',
-      year: 'Sept 2022',
-      link: 'https://www.coursera.org/account/accomplishments/professional-cert/K7U4T22D987M',
-    },  
   ],
   educations: [
     {
-      institution: 'Nanyang Technological University Singapore',
-      degree: 'Bachelor of Science (Sports Science & Management)',
-      from: '2021',
-      to: '2025',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2015',
+      to: '2019',
     },
     {
-      institution: 'Loughborough University',
-      degree: 'Sport and Exercise Science (Sports Science)',
-      from: 'Feb 2024',
-      to: 'June 2024',
-    },
-    {
-      institution: 'Raffles Institution',
-      degree: 'A Levels',
-      from: 'Jan 2013',
-      to: 'Dec 2018',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
     },
   ],
   publications: [
     {
-      title: 'Badminton Athlete',
-      // conferenceName: '',
-      // journalName: 'Journal Name',
-      // authors: 'Amos Khan',
-      // link: 'https://entuedu-my.sharepoint.com/:b:/g/personal/nie21_kjma_e_ntu_edu_sg/EakQZl_q1UNNghVa9SmYakoB6UAO0MsXUJ9m3WuOAn4XnA?e=7vtcpK',
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
       description:
-        ' Played badminton since 12 years old.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
-      title: 'Badminton Coach',
-      description: 'Coaching was where I started to educate younger ones on how to play the sport better.'
-    },
-
-    {title: 'Sports Data Analysis',
-    description: 'I find data analysis an intricate process. I find immense joy towards it.'
-    },
-
-    {title: 'Educator',
-    description: 'Through sports, I hope to educate more people on its benefits and outcomes.'
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many articles to display. Max is 10.
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'arifszn', // to hide blog section, keep it empty
+    limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
